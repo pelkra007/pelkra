@@ -1,0 +1,16 @@
+Algoritmo  PosiNegONulL
+    Definir numero Como Real
+	
+    Escribir "Ingrese un número:"
+    Leer numero
+	
+    Si numero > 0 Entonces
+        Escribir "El número es positivo."
+    Sino
+        Si numero < 0 Entonces
+            Escribir "El número es negativo."
+        Sino
+            Escribir "El número es nulo (igual a cero)."
+        FinSi
+    FinSi
+FinAlgoritmo
